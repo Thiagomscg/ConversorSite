@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+body{background: #E5E5E5;}
+
+header{
+    background-color: #1B83E2;
+    ;
+}
+
+.container{
+    width: 375px;
+    background: #F4F4F4;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    align-items: center;
+    color: #F4F4F4;
+    padding: 24px 50px 24px 54px;
+}
+
+main{
+    padding: 23px 24px 32px 24px;
+}   
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+   
+}
+
+select{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 6px 0px 23px 0px;
+} 
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    display: block;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 6px 0px 24px 0px;
+}
+
+button{
+    background: #1b82e2;
+    border-radius: 25px;
+    padding: 15px 120px 15px 122px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;display: flex;
+    align-items: center;
+    color: #F4F4F4;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #1b82e2c9;
+}
+
+button:active{
+    background: #1b82e2a8;
+}
+
+section{
+    margin-top: 36px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.Currency-Container{
+    text-align: center;
+    padding: 10px;
+}
+
+.Currency-Name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+
+}
+
+.Currency-Value{
+    line-height: 18px;
+    color: #1B83E2;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+#Seta{
+margin: 15px auto;
+display: block;
+}
